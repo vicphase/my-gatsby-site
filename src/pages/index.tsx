@@ -4,7 +4,8 @@ import * as styles from "./index.module.css";
 // markup
 const IndexPage = () => {
   return (
-    <main className="text-white p-28 pb-0">
+    <main className="text-white p-28">
+      <div className={`${styles.lineGreen} fixed w-screen top-0 left-0`}></div>
       <div className="flex mb-28">
         <div className="w-1/2">
           <h1 className="text-3xl">
